@@ -1,5 +1,8 @@
 $input-width: 5rem;
 .formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   position: absolute;
   padding-left: 2.5rem;
@@ -9,19 +12,18 @@ $input-width: 5rem;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0.8;
-  
+  opacity: 0.8; 
+  text-align: center;  
   }
   .form__item{    
-    display: inline-block;    
+    display: inline-flex;    
     padding: 0.15rem;
     margin: 0.1875rem;
-    border: 1px solid #ccc;
-    vertical-align: middle;
+    border: 1px solid #ccc;    
   }
 
 .form__item2 {
-    display: inline-block;
+    display: inline-flex;
     border: 1px solid #ccc;
     padding: 0.15rem;
     width: $input-width;
